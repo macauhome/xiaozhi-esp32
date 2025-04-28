@@ -10,6 +10,7 @@
 #define AUDIO_I2S_GPIO_WS GPIO_NUM_25  // I2S_WS (LRCK)
 #define AUDIO_I2S_GPIO_BCLK GPIO_NUM_26 // I2S_BCK (SCK)
 #define AUDIO_I2S_GPIO_DOUT GPIO_NUM_33 // I2S_DOUT (DATA)
+#define AUDIO_I2S_GPIO_DIN GPIO_NUM_34  // Change from GPIO 7 to GPIO 34
 
 // ======== 顯示屏配置 ========
 // ST7789V SPI顯示屏
