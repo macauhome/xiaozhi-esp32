@@ -28,7 +28,7 @@ private:
     Button boot_button_;
     LcdDisplay* display_;
 
-    TFT_eSPI tft = TFT_eSPI(); // Initialize the display
+    //TFT_eSPI tft = TFT_eSPI(); // Initialize the display
 
     // I2C初始化
     void InitializeI2c() {

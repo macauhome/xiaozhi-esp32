@@ -21,7 +21,15 @@
 #define DISPLAY_BACKLIGHT_PIN GPIO_NUM_12 // TFT_BL
 #define DISPLAY_WIDTH 240
 #define DISPLAY_HEIGHT 240
-#define DISPLAY_BACKLIGHT_OUTPUT_INVERT false
+//#define DISPLAY_BACKLIGHT_OUTPUT_INVERT false
+
+#define DISPLAY_MIRROR_X true
+#define DISPLAY_MIRROR_Y false
+#define DISPLAY_SWAP_XY true
+#define DISPLAY_OFFSET_X  0
+#define DISPLAY_OFFSET_Y  0
+#define DISPLAY_BACKLIGHT_PIN GPIO_NUM_42
+#define DISPLAY_BACKLIGHT_OUTPUT_INVERT true
 
 // ======== 傳感器配置 ========
 // BMA423加速度計 (I2C)
@@ -41,6 +49,7 @@
 #define TOUCH_I2C_SCL_PIN GPIO_NUM_32
 #define TOUCH_I2C_ADDR 0x38
 #define TOUCH_INT_PIN GPIO_NUM_38 //36 // 注意與BOOT按鈕衝突
+#define TOUCH_I2C_RST_PIN GPIO_NUM_14
 
 // ======== 其他外設 ========
 #define MOTOR_PIN GPIO_NUM_4  // 震動電機
